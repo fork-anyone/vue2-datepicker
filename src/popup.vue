@@ -30,6 +30,9 @@ export default {
       type: Boolean,
       default: true,
     },
+    popupEle: {
+      type: HTMLElement,
+    },
   },
   data() {
     return {
@@ -86,7 +89,7 @@ export default {
     displayPopup() {
       if (!this.visible) return;
       const popup = this.$el;
-      const relativeElement = this.$parent.$el;
+      const relativeElement = this.popupEle || this.$parent.$el;
       const { appendToBody } = this;
       if (!this._popupRect) {
         this._popupRect = getPopupElementSize(popup);

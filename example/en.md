@@ -60,6 +60,12 @@ You can use the prop `open` to control the visible of popup.
 
 This example shows how to close the popup when the seconds is selected.
 
+<!-- PopupEle -->
+
+### Popup Ele
+
+You can use the prop `popup-ele` to control positioning reference elements.
+
 <!-- HideSeconds -->
 
 ### Hide seconds selection & display AMPM selection

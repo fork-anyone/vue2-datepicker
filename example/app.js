@@ -10,6 +10,7 @@ import DisabledDateTime from './demo/DisabledDateTime.vue';
 import Shortcut from './demo/Shortcut.vue';
 import ControlTimePanel from './demo/ControlTimePanel.vue';
 import ControlOpen from './demo/ControlOpen.vue';
+import PopupEle from './demo/PopupEle.vue';
 import HideSeconds from './demo/HideSeconds.vue';
 import MinuteStep from './demo/MinuteStep.vue';
 import FixedTimeList from './demo/FixedTimeList.vue';
@@ -73,6 +74,11 @@ const components = [
     id: 'ControlOpen',
     component: ControlOpen,
     code: fs.readFileSync(`${__dirname}/demo/ControlOpen.vue`, 'utf8'),
+  },
+  {
+    id: 'PopupEle',
+    component: PopupEle,
+    code: fs.readFileSync(`${__dirname}/demo/PopupEle.vue`, 'utf8'),
   },
 ];
 

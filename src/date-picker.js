@@ -104,6 +104,9 @@ export default {
       type: Object,
       default: () => ({}),
     },
+    popupEle: {
+      type: HTMLElement,
+    },
     inline: {
       type: Boolean,
       default: false,
@@ -606,6 +609,7 @@ export default {
             visible={this.popupVisible}
             appendToBody={this.appendToBody}
             onClickoutside={this.handleClickOutSide}
+            popupEle={this.popupEle}
           >
             {sidedar}
             {content}
