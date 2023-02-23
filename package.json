@@ -1,5 +1,5 @@
 {
-  "name": "vue2-datepicker",
+  "name": "@fork-anyone/vue2-datepicker",
   "description": "A Datepicker Component For Vue2",
   "main": "index.js",
   "module": "index.esm.js",
@@ -11,7 +11,7 @@
     "/index.*",
     "/scss"
   ],
-  "version": "3.11.1",
+  "version": "3.11.2",
   "scripts": {
     "dev": "parcel ./example/dev.html --open --port 2235",
     "build:index": "cross-env NODE_ENV=production rollup -c",

@@ -1,4 +1,4 @@
-import DatePicker from 'vue2-datepicker';
+import DatePicker from '@fork-anyone/vue2-datepicker';
 import tr from 'date-format-parse/lib/locale/tr';
 
 const lang = {
